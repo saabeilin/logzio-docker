@@ -107,11 +107,11 @@ function cli() {
             'zone': 'z'
         },
         default: {
-            json: false,
+            json: true,
             newline: true,
-            stats: true,
+            stats: false,
             logs: true,
-            dockerEvents: true,
+            dockerEvents: false,
             statsinterval: 30,
             add: ['host=' + os.hostname()],
             token: process.env.LOGZIO_TOKEN,
