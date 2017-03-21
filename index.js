@@ -107,7 +107,7 @@ function cli() {
             'zone': 'z'
         },
         default: {
-            json: true,
+            json: false,
             newline: true,
             stats: false,
             logs: true,
